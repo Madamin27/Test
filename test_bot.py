@@ -1,4 +1,4 @@
-
+import turtle
 
 import telebot
 import sqlite3
