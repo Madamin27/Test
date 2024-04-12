@@ -9,6 +9,9 @@ token = '7172929869:AAFD9rxdR5gJZGKIbWUn6M352X4HiU_qjmc'
 
 bot = telebot.TeleBot(token)
 
+def hello():
+    pass
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
